@@ -37,7 +37,7 @@ jobs:
           channel: stable
           flutter-version: 3.22.3
       - name: Build flutter web
-        run: flutter build web --release --web-renderer canvaskit --no-web-resources-cdn
+        run: flutter build web --release --web-renderer canvaskit --no-web-resources-cdn --base-href "/flutter-web-service-worker-test/"
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
