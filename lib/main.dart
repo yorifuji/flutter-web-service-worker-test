@@ -106,7 +106,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'Service Worker is disabeld',
+              'Service Worker is disabeld(2)',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
             const Text(
