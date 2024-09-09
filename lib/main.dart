@@ -105,6 +105,10 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Text(
+              'Service Worker is disabeld',
+              style: Theme.of(context).textTheme.headlineMedium,
+            ),
             const Text(
               'You have pushed the button this many times:',
             ),
